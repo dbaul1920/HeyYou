@@ -37,8 +37,8 @@ do{
 }		
 		//If yes repeat previous, if not do say thanks
 	
-		while (choice.equalsIgnoreCase("y")); {
-			}
+		while (choice.equalsIgnoreCase("y")); 
+
 		 if (choice.equalsIgnoreCase("n")); {
 				System.out.println("See you later!");
 		}
