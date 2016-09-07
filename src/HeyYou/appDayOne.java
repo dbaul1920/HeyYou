@@ -22,6 +22,11 @@ do{
 		System.out.print("Enter Width: ");
 		width = input.nextInt();
 		
+		//Enter height		
+				double height;
+				System.out.print("Enter Height: ");
+				height = input.nextDouble();
+				
 		//Display area
 		int area = (int) (length * width);
 		System.out.println("Area: " + area);
@@ -29,7 +34,11 @@ do{
 		//Display perimeter
 		double perimeter = (length + width) * 2;
 		System.out.println("Perimeter: "+ perimeter);
-		 
+
+		//Display volume
+		int volume = (int) (length * width * height);
+		System.out.println("Volume: " + volume);
+		
 		//Prompt user to continue
 		System.out.println("Continue? (y/n): ");
 		choice = input.nextLine();	
